@@ -1,0 +1,542 @@
+
+<!doctype html>
+<html lang="zxx">
+    
+<!-- Mirrored from templates.envytheme.com/qfix/default/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Apr 2022 12:04:31 GMT -->
+<head>
+    {% load static %}
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- site icons -->
+<link rel="icon" href='{% static "images/fevicon/fevicon.png" %}'  type="image/gif" /> 
+<!-- bootstrap css -->
+<link rel="stylesheet" href='{% static "css/bootstrap.min.css" %}' />
+<!-- Site css -->
+<link rel="stylesheet" href='{% static "css/style.css" %}' />
+<!-- responsive css -->
+<link rel="stylesheet" href='{% static "css/responsive.css" %}' />
+<!-- colors css -->
+<link rel="stylesheet" href='{% static "css/colors1.css" %}' />
+<!-- custom css -->
+<link rel="stylesheet" href='{% static "css/custom.css" %}' />
+<!-- wow Animation css -->
+<link rel="stylesheet" href='{% static "css/animate.css" %}' />
+<!-- revolution slider css -->
+<link rel="stylesheet" type="text/css" href='{% static "revolution/css/settings.css" %}' />
+<link rel="stylesheet" type="text/css" href='{% static "revolution/css/layers.css" %}' />
+<link rel="stylesheet" type="text/css" href='{% static "revolution/css/navigation.css" %}' />
+        <!-- Title -->
+        <title>SPARTS</title>
+		<!-- <style type="text/css">
+			body{margin-top:20px;
+		background-color:#f2f6fc;
+		color:#69707a;
+		}
+		.img-account-profile {
+		height: 10rem;
+		}
+		.rounded-circle {
+		border-radius: 50% !important;
+		}
+		.card {
+		box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+		}
+		.card .card-header {
+		font-weight: 500;
+		}
+		.card-header:first-child {
+		border-radius: 0.35rem 0.35rem 0 0;
+		}
+		.card-header {
+		padding: 1rem 1.35rem;
+		margin-bottom: 0;
+		background-color: rgba(33, 40, 50, 0.03);
+		border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+		}
+		.form-control, .dataTable-input {
+		display: block;
+		width: 100%;
+		padding: 0.875rem 1.125rem;
+		font-size: 0.875rem;
+		font-weight: 400;
+		line-height: 1;
+		color: #69707a;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid #c5ccd6;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border-radius: 0.35rem;
+		transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		}
+		
+		.nav-borders .nav-link.active {
+		color: #0061f2;
+		border-bottom-color: #0061f2;
+		}
+		.nav-borders .nav-link {
+		color: #69707a;
+		border-bottom-width: 0.125rem;
+		border-bottom-style: solid;
+		border-bottom-color: transparent;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		}
+		</style> -->
+    </head>
+
+    <body id="default_theme" class="it_service">
+        <!-- loader -->
+        <!--<div class="bg_load"> <img class="loader_animation" src='{% static "images/loaders/loader_1.png" %}'  alt="#" /> </div>-->
+        <!-- end loader -->
+        <!-- header -->
+		<header id="default_header" class="header_style_1">
+            <!-- header top -->
+            <div class="header_top">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="full">
+                      <div class="topbar-left">
+                        <ul class="list-inline">
+                          <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight">Dayal Residency,Chinhat ,Noida</span> </li>
+                          <li> <span class="topbar-label"><i class="fa fa-envelope-o"></i></span> <span class="topbar-hightlight"><a href="mailto:mdpal630@gmail.com">mdpal630@gmail.com</a></span> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 right_section_header_top">
+                    <div class="float-left">
+                      <div class="social_icon">
+                        <ul class="list-inline">
+                          <li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
+                          <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
+                          <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
+                          <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
+                          <li><a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--
+                    <div class="float-right">
+                      <div class="make_appo"> <a class="btn white_btn" href="make_appointment.html">Make Appointment</a> </div>
+                    </div>
+                    -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end header top -->
+            <!-- header bottom -->
+            <div class="header_bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <!-- logo start -->
+                    <div class="logo"> <a href="{% url 'ind' %}"><img src='{% static "images/logos/it_logo.png" %}' alt="logo" /></a> </div>
+                    <!-- logo end -->
+                  </div>
+                  <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                    <!-- menu start -->
+                    <div class="menu_side">
+                      <div id="navbar_menu">
+                        <ul class="first-ul">
+                          <li> <a class="active" href="{% url 'ind' %}">Home</a>
+                            <!--
+                            <ul>
+                              <li><a href="it_home.html"> Home Page</a></li>
+                              <li><a href="it_home_dark.html"> Dark Home Page</a></li>
+                            </ul>
+                            -->
+                          </li>
+                          <li><a href="{% url 'about' %}">About Us</a></li>
+                          <!--
+                          <li> <a href="it_service.html">Service</a>
+                            <ul>
+                              <li><a href="it_service_list.html">Services list</a></li>
+                              <li><a href="it_service_detail.html">Services Detail</a></li>
+                            </ul>
+                          </li>
+                          <li> <a href="it_blog.html">Blog</a>
+                            <ul>
+                              <li><a href="it_blog.html">Blog List</a></li>
+                              <li><a href="it_blog_grid.html">Blog Grid</a></li>
+                              <li><a href="it_blog_detail.html">Blog Detail</a></li>
+                            </ul>
+                          </li>
+                          -->
+                          <li> <a href="#">Pages</a>
+                            <ul>
+                              <li><a href="{% url 'faq' %}">Faq</a></li>
+                              <li><a href="{% url 'privacy_policy' %}">Privacy Policy</a></li>
+                            </ul>
+                          </li>
+                          <li> <a href="{% url 'shop' %}">Shop</a>
+                            <ul>
+                              <li><a href="{% url 'shop' %}">Shop</a></li>
+                              <!--<li><a href="{% url 'shop_detail' %}">Shop Detail</a></li>-->
+                              <li><a href="{% url 'crt' %}">Cart</a></li>
+                              <li><a href="{% url 'wsh' %}">Whishlist</a></li>
+                            </ul>
+          
+                          <li> <a href="{% url 'contact' %}">Contact</a>
+                            <!--
+                            <ul>
+                              <li><a href="it_contact.html">Contact Page 1</a></li>
+                              <li><a href="it_contact_2.html">Contact Page 2</a></li>
+                            </ul>
+                            -->
+                          </li>
+                          {% if user.is_authenticated %}
+                          <li> <a href="{% url 'pro' %}"> hi {{user.username}}</a></li>
+                          <li> <a href="{% url 'logt' %}">logout</a></li>
+                          {% else %}
+          
+                          <li> <a href="{% url 'reg' %}">Regis</a></li>
+                          <li> <a href="{% url 'log' %}">login</a></li>
+                          {% endif %}
+                          <!-- <div class="search_icon">
+                        <ul>
+                          <li><a href="#" data-toggle="modal" data-target="#search_bar"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                      </div>-->
+                      <li>
+                        <form action="{% url 'ser' %}" method="POST">
+                          {% csrf_token %}
+                          <input type="text" name="ser" placeholder="search here">
+                        </form>
+                      </li>
+                        </ul>
+                      </div>
+              </div>
+            </div>
+            <!-- header bottom end -->
+          </header>
+          <!-- end header -->
+<!-- Start Page Title Area -->
+<div class="section padding_layout_1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="main_heading text_align_center">
+<div class="page-title-area bg-2">
+	<div class="container">
+		<div class="page-title-content">
+			<h2>Edit Profile</h2>
+			<!--<ul>
+				<li>
+					<a href="index.html">
+						Home 
+					</a>
+				</li>
+				
+				<li>Services Style Three</li>
+			</ul>-->
+		</div>
+	</div>
+  </div></div></div></div></div></div></div>
+</div>
+
+<section class="user-area-all-style sign-up-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-form-action">
+                    <div class="form-heading text-center">
+                        <h3 class="form-title">Edit your Profile!</h3>
+                    </div>
+                    <form method="post" action="{% url 'uppro' %}"  enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+                            {% for i in messages %}
+							<div class="alert alert-success" role="alert">
+                                {{i}}
+								</div>
+                                {% endfor %}
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                              <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="contact-form-action">
+                                            <div class="form-heading text-center">
+                                <label for="avatar">Choose a profile picture:</label>
+								<input type="file" accept="image/*" name="imgs" id="file" onchange="loadFile(event)" >
+                            </div></div>
+                            </div>
+                            <!-- <label for="file-upload" class="custom-file-upload">
+                                <i class="fa fa-cloud-upload"></i> Upload Image
+                              </label>
+                            <input id="file-upload" name='img' type="file" style="display:none;"> -->
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="uname" placeholder="User Name" value="{{user.username}}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="fname" placeholder="First Name" value="{{user.first_name}}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 ">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="lname" placeholder="Last Name" value="{{ user.last_name }}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input class="form-control" type="email" name="email" placeholder="Email" value="{{ user.email }}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input class="form-control" type="tel" name="phn" placeholder="Edit your Phone Number" value="{{ dis.ph_pro }}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 ">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="state" placeholder="Enter your State" value="{{ dis.state }}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="city" placeholder="Enter your City" value="{{ dis.city}}">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 ">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="street" placeholder="Enter your Street" value="{{ dis.street }}">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="default-btn btn-two" type="submit">
+                                    Save Changes
+                                </button>
+                            </div>
+                            <div class="col-12">
+                                <p class="account-desc">
+                                    Cancel changes
+                                    <a href="{% url 'pro' %}">Profile</a>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	<!-- footer -->
+<footer class="footer_style_2">
+  <div class="container-fuild">
+    <div class="row">
+      <div class="map_section">
+        <div id="map"></div>
+      </div>
+      <div class="footer_blog">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>SPARTS Theme</h2>
+            </div>
+            <p>TO explore the field of technology and make it faster and easier.</p>
+            <ul class="social_icons">
+              <li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
+                <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
+                <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
+                <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
+                <li><a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>Additional links</h2>
+            </div>
+            <ul class="footer-menu">
+              <li><a href="{% url 'about' %}"><i class="fa fa-angle-right"></i> About us</a></li>
+              <li><a href="{% url 'term_condition' %}"><i class="fa fa-angle-right"></i> Terms and conditions</a></li>
+              <li><a href="{% url 'privacy_policy' %}"><i class="fa fa-angle-right"></i> Privacy policy</a></li>
+              <li><a href="{% url 'news' %}"><i class="fa fa-angle-right"></i> News</a></li>
+              <li><a href="{% url 'contact' %}"><i class="fa fa-angle-right"></i> Contact us</a></li>
+            </ul>
+          </div>
+          <!--
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>Services</h2>
+            </div>
+            <ul class="footer-menu">
+              <li><a href="it_data_recovery.html"><i class="fa fa-angle-right"></i> Data recovery</a></li>
+              <li><a href="it_computer_repair.html"><i class="fa fa-angle-right"></i> Computer repair</a></li>
+              <li><a href="it_mobile_service.html"><i class="fa fa-angle-right"></i> Mobile service</a></li>
+              <li><a href="it_network_solution.html"><i class="fa fa-angle-right"></i> Network solutions</a></li>
+              <li><a href="it_techn_support.html"><i class="fa fa-angle-right"></i> Technical support</a></li>
+            </ul>
+          </div>
+          -->
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>Contact us</h2>
+            </div>
+            <p>Dayal Residency, Chinhat, Noida<br>
+              <span style="font-size:18px;"><a href="phone number:+916307905714">+916307905714</a></span></p>
+            <div class="footer_mail-section">
+              <form>
+                <fieldset>
+                <div class="field">
+                  <input placeholder="Email" type="text">
+                  <button class="button_custom"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cprt">
+        <p>SPARTS 2023 Design by html.design</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+<!-- js section -->
+<script src='{% static "js/jquery.min.js" %}'></script>
+<script src='{% static "js/bootstrap.min.js" %}'></script>
+<!-- menu js -->
+<script src='{% static "js/menumaker.js" %}'></script>
+<!-- wow animation -->
+<script src='{% static "js/wow.js" %}'></script>
+<!-- custom js -->
+<script src='{% static "js/custom.js" %}'></script>
+<!-- revolution js files -->
+<script src='{% static "revolution/js/jquery.themepunch.tools.min.js" %}'></script>
+<script src='{% static "revolution/js/jquery.themepunch.revolution.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.actions.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.carousel.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.kenburn.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.layeranimation.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.migration.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.navigation.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.parallax.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.slideanims.min.js" %}'></script>
+<script src='{% static "revolution/js/extensions/revolution.extension.video.min.js" %}'></script>
+<!-- map js -->
+<script>
+       // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+       // Australia.
+       function initMap() {
+         var map = new google.maps.Map(document.getElementById('map'), {
+           zoom: 11,
+           center: {lat: 40.645037, lng: -73.880224},
+       styles: [
+                {
+                  elementType: 'geometry',
+                  stylers: [{color: '#fefefe'}]
+                },
+                {
+                  elementType: 'labels.icon',
+                  stylers: [{visibility: 'off'}]
+                },
+                {
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#616161'}]
+                },
+                {
+                  elementType: 'labels.text.stroke',
+                  stylers: [{color: '#f5f5f5'}]
+                },
+                {
+                  featureType: 'administrative.land_parcel',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#bdbdbd'}]
+                },
+                {
+                  featureType: 'poi',
+                  elementType: 'geometry',
+                  stylers: [{color: '#eeeeee'}]
+                },
+                {
+                  featureType: 'poi',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#757575'}]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'geometry',
+                  stylers: [{color: '#e5e5e5'}]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#9e9e9e'}]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'geometry',
+                  stylers: [{color: '#eee'}]
+                },
+                {
+                  featureType: 'road.arterial',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#3d3523'}]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry',
+                  stylers: [{color: '#eee'}]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#616161'}]
+                },
+                {
+                  featureType: 'road.local',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#9e9e9e'}]
+                },
+                {
+                  featureType: 'transit.line',
+                  elementType: 'geometry',
+                  stylers: [{color: '#e5e5e5'}]
+                },
+                {
+                  featureType: 'transit.station',
+                  elementType: 'geometry',
+                  stylers: [{color: '#000'}]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'geometry',
+                  stylers: [{color: '#c8d7d4'}]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#b1a481'}]
+                }
+              ]
+       });
+       
+         var image = 'images/it_service/location_icon_map_cont.png';
+         var beachMarker = new google.maps.Marker({
+           position: {lat: 40.645037, lng: -73.880224},
+           map: map,
+           icon: image
+         });
+       }
+    </script>
+<!-- google map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap" ></script>
+<!-- end google map js -->
+  </body>
+</html>
